@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --breakpoint-lg: 90rem;
+
+  --color-neutral100: #f2f2f7;
+  --color-neutral200: #e4e4ef;
+  --color-neutral600: #404254;
+  --color-neutral700: #2a2b37;
+  --color-neutral800: #21222c;
+  --color-neutral900: #12131a;
+  --color-purple400: #d3a0fa;
+  --color-purple500: #c27cf8;
+  --color-yellow500: #ff9f00;
+  --color-orange500: #fe8159;
+  --color-orange500: #da3701;
+
+  --spacing-a: 2px; 
+  --spacing-b: 4px;
+  --spacing-c: 6px;
+  --spacing-d: 8px;
+  --spacing-e: 12px;
+  --spacing-f: 16px;
+  --spacing-g: 20px;
+  --spacing-h: 24px;
+  --spacing-i: 32px;
+  --spacing-j: 40px;
+  --spacing-k: 48px;
+  --spacing-l: 64px;
+  --spacing-m: 80px;
+
+  --radius-ab: 4px; 
+  --radius-2ab: 6px; 
+  --radius-3ab: 8px; 
+  --radius-4ab: 10px; 
+  --radius-5ab: 12px; 
+  --radius-6ab: 16px;
+
+  --font-display: "DM Sans", "serif"; 
+
+  --text-preset1: 4rem;
+  --text-preset1--line-height: 100%; 
+  --text-preset1--letter-spacing: -1px; 
+
+  --text-preset1M: 2.5rem;
+  --text-preset1M--line-height: 100%; 
+  --text-preset1M--letter-spacing: -1px; 
+
+  --text-preset2: 1.5rem;
+  --text-preset2--line-height: 130%; 
+  --text-preset2--letter-spacing: -1px; 
+
+  --text-preset3: 1.25rem;
+  --text-preset3--line-height: 140%; 
+  --text-preset3--letter-spacing: -0.6px; 
+
+  --text-preset4: 1rem;
+  --text-preset4--line-height: 130%; 
+  --text-preset4--letter-spacing: -0.6px; 
+
+}
