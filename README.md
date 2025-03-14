@@ -43,6 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/oloude)
+  -Live site url : [Character counter](https://character-counter-site.netlify.app/)
 
 ## My process
 
